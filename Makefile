@@ -16,6 +16,10 @@ Bio1M += Lectures
 
 ## Content
 
+dirs = Lectures
+dfiles: $(dirs:%=%/Makefile)
+Sources += $(dirs)
+
 ######################################################################
 
 -include $(ms)/git.mk
