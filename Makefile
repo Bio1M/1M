@@ -7,10 +7,10 @@ target: $(target)
 
 ##################################################################
 
-
 Sources = Makefile .gitignore README.md sub.mk LICENSE.md
 include sub.mk
-# include $(ms)/perl.def
+include $(ms)/repos.def
+Bio1M += Lectures
 
 ##################################################################
 
@@ -19,6 +19,7 @@ include sub.mk
 ######################################################################
 
 -include $(ms)/git.mk
+-include $(ms)/modules.mk
 -include $(ms)/visual.mk
 
 # -include $(ms)/wrapR.mk
