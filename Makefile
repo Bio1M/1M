@@ -17,7 +17,7 @@ include sub.mk
 
 ## Content
 
-Bio1M += Lectures images
+Bio1M += Lectures
 dirs += $(Bio1M)
 dfiles: $(dirs:%=%/Makefile)
 Sources += $(dirs)
