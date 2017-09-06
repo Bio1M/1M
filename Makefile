@@ -11,15 +11,13 @@ target: $(target)
 
 Sources = Makefile .gitignore README.md sub.mk LICENSE.md
 include sub.mk
--include $(ms)/repos.def
 
 ##################################################################
 
 ## Content
 
-Bio1M += Lectures
+Bio1M += Lectures images
 dirs += $(Bio1M)
-dfiles: $(dirs:%=%/Makefile)
 Sources += $(dirs)
 
 ######################################################################
