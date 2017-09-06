@@ -10,3 +10,6 @@
 [submodule "images"]
 	path = images
 	url = https://github.com/Bio1M/images.git
+[submodule "Bio1M.github.io/makestuff"]
+	path = Bio1M.github.io/makestuff
+	url = https://github.com/dushoff/makestuff.git
