@@ -7,7 +7,6 @@ target: $(target)
 
 ##################################################################
 
-
 Sources = Makefile .gitignore README.md sub.mk LICENSE.md
 include sub.mk
 # include $(ms)/perl.def
@@ -15,6 +14,14 @@ include sub.mk
 ##################################################################
 
 ## Content
+
+######################################################################
+
+# Jekyll
+
+Sources += _config.yml $(wildcard Gemfile_*)
+
+Sources += _includes/* _layouts/* css/* _sass/*
 
 ######################################################################
 
