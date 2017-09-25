@@ -16,10 +16,12 @@ include sub.mk
 
 ## Content
 
-# Bio1M += Lectures images Bio1M.github.io
-Bio1M += Lectures 
-dirs += $(Bio1M)
-Sources += $(dirs)
+## Repos from https://github.com/Bio1M/ (others at repos.def, or called from other directories)
+gMain = Lectures Archive
+
+Bio1M += $(gMain)
+
+Sources += $(gMain)
 
 ######################################################################
 
