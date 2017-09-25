@@ -3,3 +3,5 @@ This is the repo repo for the Bio1M organization. It is meant to be nested insid
 Sub-repos:
 
 * Lectures (where I prepare lectures)
+* Bio1M.github.io web site (also inside lectures, why is that good?)
+* images/ (also inside lectures!)

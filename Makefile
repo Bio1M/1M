@@ -16,7 +16,7 @@ include sub.mk
 
 ## Content
 
-Bio1M += Lectures images
+Bio1M += Lectures images Bio1M.github.io
 dirs += $(Bio1M)
 Sources += $(dirs)
 
