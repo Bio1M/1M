@@ -1,5 +1,7 @@
 # 1M
 
+## Deprecated branch of 1M?? 
+
 ######################################################################
 
 current: target
@@ -16,9 +18,14 @@ include sub.mk
 
 ## Content
 
-Bio1M += Lectures images
-dirs += $(Bio1M)
-Sources += $(dirs)
+## Repos from https://github.com/Bio1M/ (others at repos.def, or called from other directories)
+gMain = Lectures Archive
+
+Bio1M += $(gMain)
+
+Sources += $(gMain)
+
+mdirs +=  $(gMain)
 
 ######################################################################
 
