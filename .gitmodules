@@ -4,6 +4,3 @@
 [submodule "Lectures"]
 	path = Lectures
 	url = https://github.com/Bio1M/Lectures.git
-[submodule "Archive"]
-	path = Archive
-	url = https://github.com/Bio1M/Archive.git
