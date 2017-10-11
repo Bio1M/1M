@@ -7,9 +7,6 @@
 [submodule "Archive"]
 	path = Archive
 	url = https://github.com/Bio1M/Archive.git
-[submodule "1M_2017/makestuff"]
-	path = 1M_2017/makestuff
-	url = https://github.com/dushoff/makestuff.git
 [submodule "1m_2017"]
 	path = 1m_2017
 	url = https://bitbucket.org/dushoff/1m_2017.git
