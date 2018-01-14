@@ -22,4 +22,5 @@
 * make hup
 	* make: Nothing to be done for 'hup'. RIDICULOUS!!
 	* Not reproducible
+	* Accumulates gaps -- could it be fixed with gitcheck?
 
