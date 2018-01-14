@@ -19,3 +19,6 @@
 	* maybe a problem with dependencies (used *.*) inappropriately
 * make bump
 * make srstuff
+* make hup
+	* make: Nothing to be done for 'hup'. RIDICULOUS!!
+
