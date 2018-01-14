@@ -1,0 +1,18 @@
+* make makestuff.msync
+	(Needed to dash out some includes)
+* make makestuff.msync
+* make ruc
+(A huge mess of headless submodules)
+* git status
+	(cleanish)
+* make rmaster
+* git status
+	(a moderate mess, probably with layers)
+* make hup
+	(Need some ignore stuff first)
+	(but there's no rule for broadcasting it yet!)
+* make srstuff
+* make hybridignore
+	(several problems, including staged .gitignore)
+* make hup
+	(seems a lot of good things happened; problems with the web directories (maybe they weren't clean to start with, and they're competing, and problems here (including this file))
