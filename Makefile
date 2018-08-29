@@ -1,5 +1,8 @@
 # 1M
 
+## Need to update -- should be a container repo with clones
+## testing hup
+
 ######################################################################
 
 current: target
@@ -9,9 +12,11 @@ target: $(target)
 
 ##################################################################
 
-Sources = Makefile .gitignore README.md sub.mk LICENSE.md
-include sub.mk
-include $(ms)/repos.def
+Sources = Makefile .ignore README.md sub.mk LICENSE.md
+-include sub.mk
+-include $(ms)/repos.def
+
+Sources += test.txt
 
 ##################################################################
 
